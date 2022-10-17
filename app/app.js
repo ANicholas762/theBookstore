@@ -1,6 +1,6 @@
 import * as MODEL from "./model.js";
 
-function route() {
+function routeTwo() {
     let hashTag = window.location.hash;
     let pageID = hashTag.replace("#", "");
     console.log("hash " + pageID);
@@ -14,7 +14,7 @@ function route() {
 
 function initApp () {
     $(window).on("hashchange", route);
-    route();
+    routeTwo();
 }       
 
 
