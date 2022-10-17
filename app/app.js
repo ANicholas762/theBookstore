@@ -48,10 +48,10 @@ function routeTwo() {
   }
 }
 
-function initApp() {
-  $(window).on("hashchange", route);
-  routeTwo();
-}
+// function initApp() {
+//   $(window).on("hashchange", route);
+//   routeTwo();
+// }
 
 function init() {
   $("#login").on("click", function (e) {
@@ -104,7 +104,7 @@ function initTwo() {
   });
 }
 
-function initListeners() {}
+// function initListeners() {}
 
 $(document).ready(function () {
   console.log("ready");
